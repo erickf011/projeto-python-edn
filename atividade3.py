@@ -6,7 +6,7 @@ print("4 - Verificador de Ano Bissexto")
 
 opcao = input("Escolha uma opção (1 a 4): ")
 
-# 1️⃣ Classificador de Idade
+# 1 Classificador de Idade
 if opcao == "1":
     idade = int(input("Digite sua idade: "))
 
@@ -21,7 +21,7 @@ if opcao == "1":
     else:
         print("Idade inválida")
 
-# 2️⃣ Calculadora de IMC
+# 2 Calculadora de IMC
 elif opcao == "2":
     peso = float(input("Digite seu peso (kg): "))
     altura = float(input("Digite sua altura (m): "))
@@ -40,7 +40,7 @@ elif opcao == "2":
     print(f"Seu IMC é {imc:.2f}")
     print(f"Classificação: {classificacao}")
 
-# 3️⃣ Conversor de Temperatura
+# 3 Conversor de Temperatura
 elif opcao == "3":
     temperatura = float(input("Digite a temperatura: "))
     origem = input("Unidade de origem (C, F ou K): ").upper()
@@ -66,7 +66,7 @@ elif opcao == "3":
 
     print(f"Temperatura convertida: {resultado:.2f} {destino}")
 
-# 4️⃣ Verificador de Ano Bissexto
+# 4  Verificador de Ano Bissexto
 elif opcao == "4":
     ano = int(input("Digite um ano: "))
 
