@@ -66,7 +66,7 @@ elif opcao == "3":
 
     print(f"Temperatura convertida: {resultado:.2f} {destino}")
 
-# 4  Verificador de Ano Bissexto
+# 4 Verificador de Ano Bissexto
 elif opcao == "4":
     ano = int(input("Digite um ano: "))
 
